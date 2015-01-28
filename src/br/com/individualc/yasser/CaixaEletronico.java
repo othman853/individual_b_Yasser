@@ -60,9 +60,13 @@ public class CaixaEletronico {
 	}
 	
 	public void imprimirNotasSacadas(){
+		System.out.println();
+		System.out.println("------------- SAQUE ------------");
 		System.out.println("[10]  : " + contadorNotasDe10);
 		System.out.println("[20]  : " + contadorNotasDe20);
 		System.out.println("[50]  : " + contadorNotasDe50);
 		System.out.println("[100] : " + contadorNotasDe100);
+		System.out.println("---------------------------------");
+		System.out.println();
 	}
 }
